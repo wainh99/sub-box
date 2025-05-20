@@ -25,8 +25,8 @@ DEPLOY_TARGET = "cloudflare"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "prod-sub-box-db" # Change this to the name of your D1 database
-database_id = "6d5afde0-0b33-41bf-959d-0a0086762040" # wrangler d1 info <YOUR_DATABASE_NAME>
+database_name = "jiedianjihe" # Change this to the name of your D1 database
+database_id = "dd141925-7703-4dee-8505-8a6f87f71740" # wrangler d1 info <YOUR_DATABASE_NAME>
 
 [observability.logs]
 enabled = true
